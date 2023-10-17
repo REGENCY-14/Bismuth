@@ -163,7 +163,7 @@ max-width: 100%; */
 .grid{
   position: relative;
   left:9%;
-  display: flex;
+  display: inline-flex;
   column-gap: 20px;
   padding-top: 50px;
 
@@ -220,6 +220,115 @@ column-gap: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap:20px;
+}
+
+.slideshow-bg{
+  position: relative;
+  height: 500px;
+  width:100%;
+  background-color: #333;
+  align-items: center;
+}
+
+.slideshow-overlay{
+  position: absolute;
+  height: 350px ;
+  width:70%;
+  background-color: red;
+  top: 50%;
+left: 50%;
+transform : translate(-50%,-50%) 
+}
+
+
+
+.fifth-part{
+  position: relative;
+  text-align: center;
+  padding-top: 7%;
+  font-size: 25px;
+  font-weight: 1000;
+  height:700px;
+}
+
+.fifth-part p{
+padding-bottom: 7%;
+}
+
+.slideshow2{
+  position: absolute;
+  height: 450px;
+  background-color: red;
+  width: 70%;
+top: 60%;
+left: 50%;
+transform : translate(-50%,-50%)
+}
+
+.sixth-part{
+  height: 850px;
+  width:100%;
+  background-color: #979797;
+
+}
+
+.sixth-part p{
+  text-align: center;
+  padding-top: 50px;
+  font-size: 2rem;
+  font-weight: 1000;
+  line-height: 3rem;
+
+}
+
+.seventh-part{
+    position: relative;
+  display: flex;
+}
+
+.firsthalf{
+  height: 500px;
+  background-color: rgb(13, 0, 56);
+  width: 50%;
+}
+
+.secondhalf{
+  height: 500px;
+  background-color: rgb(255, 255, 255);
+  width:50%;
+}
+
+.firsthalf h2{
+  padding-left: 50px;
+  padding-top: 15%;
+  text-align: justify;
+  font-size: 2rem;
+  color: orangered;
+}
+
+.firsthalf p{
+  padding-top: 7.5%;
+  padding-left: 50px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-bottom: 20px;
+  color: white;
+
+}
+
+.firsthalf button{
+  position: absolute;
+  left: 3%;
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  border-color: orangered;
+  background-color: transparent;
+  color: orangered;
+  font-size: 15px;
+  font-weight: bold;
+
+  
 }
 
 
