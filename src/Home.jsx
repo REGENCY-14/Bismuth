@@ -130,7 +130,13 @@ const Homepage = () => {
                   <button>Learn More</button>
         </div>
         <div className="secondhalf"></div>
-      </div>
+          </div>
+          <div className="last-part">
+              <h2>From the Moringa World</h2>
+              <div className="lastslideshow">
+                  
+              </div>
+          </div>
     </div>
   );
 };

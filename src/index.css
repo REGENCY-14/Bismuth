@@ -331,5 +331,30 @@ transform : translate(-50%,-50%)
   
 }
 
+.last-part{
+  position: relative;
+  height: 800px;
+
+}
+
+.last-part h2{
+  padding-top: 7%;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.lastslideshow{
+  position: absolute;
+  height: 500px;
+  background-color: red;
+  width: 70%;
+  top: 60%;
+  left: 50%;
+  transform : translate(-50%,-50%)
+  
+
+
+
+}
 
 
