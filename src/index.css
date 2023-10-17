@@ -90,7 +90,7 @@
 }
 
 .first-part img {
-  /* background-size: cover; */
+  background-size: cover;
   background-position: center;
   background-attachment: fixed;
   max-width: 100%;
@@ -100,7 +100,7 @@
   position: absolute;
   top: 40%;
   left: 9%;
-  transform: "translate(-50%,-50%)";
+   transform: "translate(-50%,-50%)";
 }
 
 .textonimage h2 {
@@ -128,16 +128,99 @@
 }
 
 .innersection {
-position: absolute;
-background-color: red;
+/* position: absolute; */
+position: relative;
+background-color: rgba(46,46,80,0.4);
 height:200px;
 width:700px;
-/* padding-left: 0; */
-/* background-position: 0%; */
-/* background-size: cover; */
-/* background-position: center; */
-/* background-attachment: fixed; */
-/* max-width: 100%; */
+top:35px;
+/* padding-left: 0; 
+background-position: 0%; 
+background-size: cover; 
+background-position: center; 
+ background-attachment: fixed;
+max-width: 100%; */
 
    
 }
+
+.second-part h2{
+  position: relative;
+  padding-top: 10%;
+  left: 9%;
+  font-size: 2.2rem;
+}
+
+.second-part p{
+  position: relative;
+  left:9%;
+  font-size: 1.4rem;
+  text-align: justify;
+  line-height: 2rem;
+  align-items: center;
+}
+
+.grid{
+  position: relative;
+  left:9%;
+  display: flex;
+  column-gap: 20px;
+  padding-top: 50px;
+
+}
+
+.box-1{
+  height: 250px;
+  width:290px;
+  background-color: green;
+  border-radius: 5px;
+}
+
+.text {
+  /* position: relative; */
+  height:20px;
+  width: 290px;
+  background-color: red;
+  padding-bottom: 60%;
+  border-radius: 5px;
+}
+
+
+.grid2{
+  position: relative;
+  left: 9%;
+column-gap: 20px;
+  padding-top: 150px;
+  display: flex;
+}
+
+.video{
+  height: 300px;
+  width:50%;
+  background-color: yellow;
+  padding-top: 50px;
+  margin-left: 20px;
+}
+
+.video-text{
+  width:50%;
+  background-color: rgb(253, 253, 253);
+  padding-top: 50px;
+  margin-right: 20px;
+  padding: 50px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2rem;
+
+}
+
+.values{
+  column-gap: 20px;
+  padding-top: 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap:20px;
+}
+
+
+
