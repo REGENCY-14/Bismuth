@@ -42,16 +42,24 @@ const Homepage = () => {
       </>
       <div className="grid">
         <div className="box-1">
-          <div className="text"></div>
+          <div className="text">
+            <h2>Ayanokoji</h2>
+          </div>
         </div>
         <div className="box-1">
-          <div className="text"></div>
+          <div className="text">
+            <h2>Ayanokoji</h2>
+          </div>
         </div>
         <div className="box-1">
-          <div className="text"></div>
+          <div className="text">
+            <h2>Ayanokoji</h2>
+          </div>
         </div>
         <div className="box-1">
-          <div className="text"></div>
+          <div className="text">
+            <h2>Ayanokoji</h2>
+          </div>
         </div>
       </div>
 
@@ -121,22 +129,21 @@ const Homepage = () => {
           </h2>
 
           <p>
-            We believe that quality education should be accessible <br /> to all who
-            want to learn regardless of their financial <br />circumstances. Your
-            Moringa education will now be <br /> made affordable and accessible through
-            a number of <br /> Student Financing options such as Loans and Partial <br />
+            We believe that quality education should be accessible <br /> to all
+            who want to learn regardless of their financial <br />
+            circumstances. Your Moringa education will now be <br /> made
+            affordable and accessible through a number of <br /> Student
+            Financing options such as Loans and Partial <br />
             Scholarships.
-                  </p>
-                  <button>Learn More</button>
+          </p>
+          <button>Learn More</button>
         </div>
         <div className="secondhalf"></div>
-          </div>
-          <div className="last-part">
-              <h2>From the Moringa World</h2>
-              <div className="lastslideshow">
-                  
-              </div>
-          </div>
+      </div>
+      <div className="last-part">
+        <h2>From the Moringa World</h2>
+        <div className="lastslideshow"></div>
+      </div>
     </div>
   );
 };
