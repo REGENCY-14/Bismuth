@@ -163,7 +163,7 @@ max-width: 100%; */
 .grid{
   position: relative;
   left:9%;
-  display: flex;
+  display: inline-flex;
   column-gap: 20px;
   padding-top: 50px;
 
