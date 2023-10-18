@@ -1,3 +1,5 @@
+import Slider from "./slideshow";
+
 const Homepage = () => {
   return (
     <div className="Home">
@@ -103,7 +105,9 @@ const Homepage = () => {
       </div>
       <div className="forth-part">
         <div className="slideshow-bg">
-          <div className="slideshow-overlay"></div>
+                  <div className="slideshow-overlay">
+                      <Slider/>
+          </div>
         </div>
       </div>
       <div className="fifth-part">
@@ -111,7 +115,9 @@ const Homepage = () => {
           Market-aligned Courses Curated for Your <br />
           Career Success
         </p>
-        <div className="slideshow2"></div>
+              <div className="slideshow2">
+                  <Slider/>
+        </div>
       </div>
 
       <div className="sixth-part">
@@ -142,7 +148,9 @@ const Homepage = () => {
       </div>
       <div className="last-part">
         <h2>From the Moringa World</h2>
-        <div className="lastslideshow"></div>
+              <div className="lastslideshow">
+                  <Slider/>
+        </div>
       </div>
     </div>
   );

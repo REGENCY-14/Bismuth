@@ -12,8 +12,6 @@
   color: #333;
 }
 
-
-
 .navbar {
   padding: 20px;
   display: flex;
@@ -154,7 +152,7 @@
   align-items: center;
 }
 
- .grid {
+.grid {
   position: relative;
   padding-left: 5%;
   display: inline-flex;
@@ -179,13 +177,12 @@
   background-color: rgb(22, 255, 216);
 }
 
-.text h2{
+.text h2 {
   position: relative;
-text-align: center;
-font-size: 1.7rem;
-top: 25%;
-color: white;
-
+  text-align: center;
+  font-size: 1.7rem;
+  top: 25%;
+  color: white;
 }
 
 .grid2 {
@@ -234,10 +231,15 @@ color: white;
   position: absolute;
   height: 350px;
   width: 70%;
-  background-color: red;
+  background-color: transparent;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.slideshow-overlay img {
+  height: 350px;
+  padding-left: 30%;
 }
 
 .fifth-part {
@@ -256,11 +258,15 @@ color: white;
 .slideshow2 {
   position: absolute;
   height: 450px;
-  background-color: red;
+  background-color: transparent;
   width: 70%;
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.slideshow2 img {
+  height: 450px;
 }
 
 .sixth-part {
@@ -290,8 +296,8 @@ color: white;
 
 .secondhalf {
   height: 600px;
-    background-image: url("D:\SCHOOL\react\Bismuth\Project-1\images\grid.jpg");
-    background-size: cover;
+  background-image: url("D:\SCHOOL\react\Bismuth\Project-1\images\grid.jpg");
+  background-size: cover;
   width: 50%;
 }
 
@@ -338,10 +344,19 @@ color: white;
 
 .lastslideshow {
   position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 500px;
-  background-color: red;
+  background-color: transparent;
   width: 70%;
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
-} 
+}
+
+.lastslideshow img {
+  padding-left: 25%;
+  height: 500px;
+
+}
