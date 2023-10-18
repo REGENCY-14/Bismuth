@@ -155,7 +155,7 @@
 .grid {
   position: relative;
   padding-left: 5%;
-  display: inline-flex;
+  display: flex;
   column-gap: 20px;
   padding-top: 50px;
 }
