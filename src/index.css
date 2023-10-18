@@ -359,5 +359,32 @@
 .lastslideshow img {
   padding-left: 25%;
   height: 500px;
-
 }
+
+.footer {
+  background: rgb(13, 0, 56);
+  align-content: center;
+  height: 500px;
+}
+
+.footer{
+  display: flex;
+}
+
+.cc, .contact{
+  flex: 1;
+  
+}
+
+.cc{
+  padding-top: 10%;
+  padding-left: 10%;
+  line-height: 3rem;
+  font-size: 1.7rem;
+  color: white;
+  font-weight: 700;
+}
+
+
+
+
