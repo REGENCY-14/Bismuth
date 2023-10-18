@@ -99,8 +99,8 @@
 .textonimage {
   position: absolute;
   top: 40%;
-  left: 9%;
-   transform: "translate(-50%,-50%)";
+  padding-left: 5%;
+  transform: "translate(-50%,-50%)";
 }
 
 .textonimage h2 {
@@ -127,100 +127,236 @@
   font-weight: bold;
 }
 
-.innersection {
-/* position: absolute; */
-position: relative;
-background-color: rgba(46,46,80,0.4);
-height:200px;
-width:700px;
-top:35px;
-/* padding-left: 0; 
-background-position: 0%; 
-background-size: cover; 
-background-position: center; 
- background-attachment: fixed;
-max-width: 100%; */
+/* .innersection {
+  position: relative;
+  background-color: rgba(46, 46, 80, 0.4);
+  height: 200px;
+  width: 700px;
+  top: 35px;
 
-   
-}
+} */
 
-.second-part h2{
+.second-part h2 {
   position: relative;
   padding-top: 10%;
-  left: 9%;
+  padding-left: 5%;
   font-size: 2.2rem;
 }
 
-.second-part p{
+.second-part p {
   position: relative;
-  left:9%;
+  padding-left: 5%;
   font-size: 1.4rem;
   text-align: justify;
   line-height: 2rem;
   align-items: center;
 }
 
-.grid{
+.grid {
   position: relative;
-  left:9%;
+  padding-left: 5%;
   display: inline-flex;
   column-gap: 20px;
   padding-top: 50px;
-
 }
 
-.box-1{
+.box-1 {
+  position: relative;
   height: 250px;
-  width:290px;
-  background-color: green;
+  width: 290px;
+  background-size: cover;
+  background-image: url("D:\SCHOOL\react\Bismuth\Project-1\images\grid.jpg");
   border-radius: 5px;
 }
 
 .text {
-  /* position: relative; */
-  height:20px;
-  width: 290px;
-  background-color: red;
-  padding-bottom: 60%;
-  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  height: 70px;
+  width: 100%;
+  background-color: rgb(22, 255, 216);
 }
 
-
-.grid2{
+.text h2 {
   position: relative;
-  left: 9%;
-column-gap: 20px;
+  text-align: center;
+  font-size: 1.7rem;
+  top: 25%;
+  color: white;
+}
+
+.grid2 {
+  position: relative;
+  padding-left: 5%;
+  column-gap: 20px;
   padding-top: 150px;
   display: flex;
 }
 
-.video{
-  height: 300px;
-  width:50%;
-  background-color: yellow;
-  padding-top: 50px;
+.video {
+  height: 350px;
+  width: 50%;
+  background-image: url("D:\SCHOOL\react\Bismuth\Project-1\images\grid.jpg");
+  background-size: cover;
   margin-left: 20px;
 }
 
-.video-text{
-  width:50%;
+.video-text {
+  width: 50%;
   background-color: rgb(253, 253, 253);
-  padding-top: 50px;
   margin-right: 20px;
   padding: 50px;
   font-size: 1.5rem;
   font-weight: 700;
   line-height: 2rem;
-
 }
 
-.values{
+.values {
   column-gap: 20px;
   padding-top: 70px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap:20px;
+  grid-gap: 20px;
 }
 
+.slideshow-bg {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  background-color: #b8b8b8;
+  align-items: center;
+}
 
+.slideshow-overlay {
+  position: absolute;
+  height: 350px;
+  width: 70%;
+  background-color: transparent;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
+.slideshow-overlay img {
+  height: 350px;
+  padding-left: 30%;
+}
+
+.fifth-part {
+  position: relative;
+  text-align: center;
+  padding-top: 7%;
+  font-size: 25px;
+  font-weight: 1000;
+  height: 700px;
+}
+
+.fifth-part p {
+  padding-bottom: 7%;
+}
+
+.slideshow2 {
+  position: absolute;
+  height: 450px;
+  background-color: transparent;
+  width: 70%;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.slideshow2 img {
+  height: 450px;
+}
+
+.sixth-part {
+  height: 850px;
+  width: 100%;
+  background-color: #979797;
+}
+
+.sixth-part p {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 2rem;
+  font-weight: 1000;
+  line-height: 3rem;
+}
+
+.seventh-part {
+  position: relative;
+  display: flex;
+}
+
+.firsthalf {
+  height: 600px;
+  background-color: rgb(13, 0, 56);
+  width: 50%;
+}
+
+.secondhalf {
+  height: 600px;
+  background-image: url("D:\SCHOOL\react\Bismuth\Project-1\images\grid.jpg");
+  background-size: cover;
+  width: 50%;
+}
+
+.firsthalf h2 {
+  padding-left: 50px;
+  padding-top: 15%;
+  text-align: justify;
+  font-size: 2rem;
+  color: orangered;
+}
+
+.firsthalf p {
+  padding-top: 7.5%;
+  padding-left: 50px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.firsthalf button {
+  position: absolute;
+  left: 3%;
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  border-color: orangered;
+  background-color: transparent;
+  color: orangered;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.last-part {
+  position: relative;
+  height: 800px;
+}
+
+.last-part h2 {
+  padding-top: 7%;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.lastslideshow {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  background-color: transparent;
+  width: 70%;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.lastslideshow img {
+  padding-left: 25%;
+  height: 500px;
+
+}
