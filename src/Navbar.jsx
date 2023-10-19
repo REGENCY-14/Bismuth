@@ -92,7 +92,7 @@ const Navbar = () => {
       <div className="button">
         <FaSearch className="icon"/>
         <button>
-          <img src="/ke.svg"/>
+          <img id="kenya" src="/ke.svg"/>
           Kenya
           <div className="cover"></div>
           <div className="country">

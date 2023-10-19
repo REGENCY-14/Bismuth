@@ -117,19 +117,40 @@
   width: 100%;
   height: 100%;
 }
-.button img{
+.button img, .button #kenya{
   width: 20px;
   height: 20px;
-  border-radius: 50%;
   position: relative;
+  display: inline;
+  border-radius: 50%;
+}
+.button #kenya{
   right: 10px;
   top: 4px;
-  display: inline;
 }
 .button .country{
   position: absolute;
   background-color: white;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  width: 250px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: left;
+  top: 45px;
+  right: 0;
+}
+.button .country{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 70px;
+}
+.country .item{
+  font-weight: 500;
+}
+.button .country img{
+  top: 4px;
+  margin-right: 10px;
 }
 .navbar-item button{
   animation: normal rotate 1s ease-in-out;
