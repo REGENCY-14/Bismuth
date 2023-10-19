@@ -104,7 +104,6 @@
   padding-right: 15px;
   padding-top: 7px;
   position: relative;
-  overflow: hidden;
   font-weight: bolder;
 }
 .button .cover{
@@ -126,6 +125,11 @@
   right: 10px;
   top: 4px;
   display: inline;
+}
+.button .country{
+  position: absolute;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
 }
 .navbar-item button{
   animation: normal rotate 1s ease-in-out;

@@ -95,6 +95,16 @@ const Navbar = () => {
           <img src="/ke.svg"/>
           Kenya
           <div className="cover"></div>
+          <div className="country">
+            <div className="item">
+              <img src="/ke.svg"/>
+              Kenya
+            </div>
+            <div className="item">
+              <img src="/international.svg"/>
+              International
+            </div>
+          </div>
         </button>
         <FaBars id='nav_button' onClick={changeSidebar}/>
       </div>
