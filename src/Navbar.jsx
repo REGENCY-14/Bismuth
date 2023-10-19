@@ -23,6 +23,11 @@ const Dropdown = ({header}) => {
 }
 
 const Navbar = () => {
+  const [showCountry, setShowCountry] = useState(false);
+  const handleCountry = () => {
+    setShowCountry(!showCountry)
+  }
+
   const [isMobile, setIsMobile] = useState(false);
   useEffect(() => {
     const mediaQuery = window.matchMedia("(max-width: 1000px)");
@@ -91,20 +96,23 @@ const Navbar = () => {
       </div>
       <div className="button">
         <FaSearch className="icon"/>
-        <button>
+        <button onClick={handleCountry}>
           <img id="kenya" src="/ke.svg"/>
           Kenya
           <div className="cover"></div>
-          <div className="country">
-            <div className="item">
-              <img src="/ke.svg"/>
-              Kenya
+          {showCountry &&
+            <div className="country">
+              <div className="item">
+                <img src="/ke.svg"/>
+                Kenya
+              </div>
+              <div className="item">
+                <img src="/international.svg"/>
+                International
+              </div>
             </div>
-            <div className="item">
-              <img src="/international.svg"/>
-              International
-            </div>
-          </div>
+          }
+          
         </button>
         <FaBars id='nav_button' onClick={changeSidebar}/>
       </div>
