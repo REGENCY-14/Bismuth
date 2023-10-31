@@ -71,6 +71,7 @@ const Navbar = () => {
       setItemHovered(item);
     }
   }
+  
 
   return (
     <nav className="navbar">
