@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import {FaSearch, FaBars } from "react-icons/fa"
 import { IoIosArrowForward} from "react-icons/io"
 
-const navitems = ["Course", "About", "Financial Aid", "Corporate", "Community"]
+const navitems = ["Courses", "About", "Financial Aid", "Corporate", "Community"]
 
 const Dropdown = ({header}) => {
   return (
@@ -75,7 +75,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="logo"><img src="/logo.png"/></div>
+      <div className="logo"><img src="/bitlab-logo.svg"/></div>
       <div className="links">
         <ul className={`scroll ${(showSidebar) ? '' : 'hidden'}`}>
           <li className="sm-img"><img src="/logo-white.png"/></li>
