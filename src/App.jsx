@@ -1,7 +1,7 @@
 import Navbar from "./Navbar";
 import Homepage from "./Home";
 import Foot from "./foot";
-import Course from "./Courses"
+import Courses from "./Courses"
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
         <>
           <Routes>
             <Route exact path='/' element={<Homepage />}></Route>
-            <Route exact path='/Course' element={<Course/>}></Route>
+            <Route exact path='/Courses' element={<Courses/>}></Route>
           </Routes>
         </>
         <Foot />
