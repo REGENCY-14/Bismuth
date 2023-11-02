@@ -85,7 +85,7 @@ const Navbar = () => {
               className={`navbar-item ${(itemHovered === index)? "active" : ""}`}
               onMouseEnter={() => handleMouseEnter(index)}
               onMouseLeave={handleMouseLeave}>
-                {navitem}
+                <a href={navitem}>{navitem}</a>
                 <button onClick={() => handleClick(index)}>
                   <IoIosArrowForward size={30} className="arrow1"/>
                 </button>
