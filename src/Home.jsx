@@ -4,7 +4,7 @@ const Homepage = () => {
   return (
     <div className="Home">
       <div className="first-part">
-        <img src="/stemcafe4.JPG" alt="" />
+        <img src="/intro.jpg" alt="" />
         <div className="textonimage">
           <h2>
             Empowering Young Minds<br></br>Through STEM Innovation
@@ -57,17 +57,17 @@ const Homepage = () => {
         </div>
         <div className="box-2">
           <div className="text">
-            <h2>Ayanokoji</h2>
+            <h2>Collaborative Challenges</h2>
           </div>
         </div>
-        <div className="box-2">
+        <div className="box-3">
           <div className="text">
-            <h2>Ayanokoji</h2>
+            <h2>Maker Activities</h2>
           </div>
         </div>
-        <div className="box-2">
+        <div className="box-4">
           <div className="text">
-            <h2>Ayanokoji</h2>
+            <h2>Entrepreneurship</h2>
           </div>
         </div>
       </div>
@@ -154,7 +154,7 @@ const Homepage = () => {
         <div className="secondhalf"></div>
       </div>
       <div className="last-part">
-        <h2>From the Moringa World</h2>
+        <h2>From the BitLabs world</h2>
         <div className="lastslideshow">
           <Slider />
         </div>
