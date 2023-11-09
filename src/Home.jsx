@@ -77,9 +77,9 @@ const Homepage = () => {
           <div className="video"></div>
           <div className="video-text">
             <p>
-              The quality of our programs and <br /> their impact on learners is
-              a direct <br /> reflection of who we are and our <br /> ability to
-              consistently meet the <br /> objectives we set for our students.
+              The effectiveness of our programs and how they influence learners
+              directly mirrors our identity and our consistent capability to
+              achieve the goals we establish for our students.
             </p>
             <>
               <div className="values">
