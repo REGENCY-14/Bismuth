@@ -86,6 +86,44 @@ const About = () => {
               </div>
             </div>
           </div>
+          <div className="wave3">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+              <path
+                fill="#d4d4d4"
+                fill-opacity="1"
+                d="M0,160L48,176C96,192,192,224,288,245.3C384,267,480,277,576,250.7C672,224,768,160,864,160C960,160,1056,224,1152,234.7C1248,245,1344,203,1392,181.3L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+              ></path>
+            </svg>
+          </div>
+
+          <div className="forthsection">
+            <h1>OUR JOURNEY</h1>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid
+              odio quibusdam temporibus animi sint, fuga vel, error ab
+              praesentium adipisci, distinctio earum provident suscipit
+              architecto laborum autem possimus culpa eos. Lorem ipsum dolor,
+              sit amet consectetur adipisicing elit. Fugiat odit vel et quod qui
+              excepturi perspiciatis doloremque accusantium labore aut, maiores
+              asperiores molestiae facilis, doloribus provident at beatae eaque!
+              Nostrum?Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Beatae sequi, quam ab dolor soluta harum dolorum inventore minima
+              voluptate natus corrupti. At, expedita natus provident cumque quis
+              ullam animi
+            </p>
+          </div>
+          <div className="wave4">
+            {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+              <path
+                fill="#dfdfdf"
+                fill-opacity="1"
+                d="M0,128L48,154.7C96,181,192,235,288,218.7C384,203,480,117,576,117.3C672,117,768,203,864,197.3C960,192,1056,96,1152,64C1248,32,1344,64,1392,80L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+              ></path>
+            </svg> */}
+          </div>
+          <div className="lastsection">
+            <h1>BOARD MEMBERS</h1>
+          </div>
         </div>
       </>
     );
