@@ -123,6 +123,28 @@ const About = () => {
           </div>
           <div className="lastsection">
             <h1>BOARD MEMBERS</h1>
+            <div className="boardmembers">
+              <div className="boxA">
+                <div className="image1"></div>
+                <h2>Adrian Nim</h2>
+              </div>
+              <div className="boxA">
+                <div className="image2"></div>
+                <h2>Adonai Addo</h2>
+              </div>
+              <div className="boxA">
+                <div className="image3"></div>
+                <h2>Dennis Frimpong</h2>
+              </div>
+              <div className="boxA">
+                <div className="image4"></div>
+                <h2>Charlie Beck</h2>
+              </div>
+              <div className="boxA">
+                <div className="image5"></div>
+                <h2>Jim Skon</h2>
+              </div>
+            </div>
           </div>
         </div>
       </>
