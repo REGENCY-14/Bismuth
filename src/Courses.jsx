@@ -4,15 +4,15 @@ const Courses = () => {
   return (
     <>
       <div className="cfirst-part">
-        <img src="/intro.jpg" alt="" />
+        <img src="/intro.jpg" alt=""/>
         <div className="textonimage">
-          <h2>Courses </h2>
+          <h2 className="title">Courses </h2>
         </div>
       </div>
 
       <div className="ccontainer">
         <div className="cbox1">
-          <div className="image"></div>
+          <img src="./appdev.jpg"/>
           <h2>App Development</h2>
           <p>
             Unlock your potential and master the art of app development with our
@@ -21,10 +21,11 @@ const Courses = () => {
             and engaging mobile applications. Enroll now to kick-start your
             journey toward becoming a skilled app developer
           </p>
+          <div className="fading"></div>
           <button>Apply</button>
         </div>
         <div className="cbox1">
-          <div className="image2"></div>
+          <img src="./webdev.jpg"/>
           <h2>Web Development</h2>
           <p>
             Ready to become a web development pro? Our dynamic course is
@@ -34,12 +35,13 @@ const Courses = () => {
             development frameworks. Join us now and unleash your potential in
             the exciting realm of web development!
           </p>
+          <div className="fading"></div>
           <button>Apply</button>
         </div>
       </div>
       <div className="ccontainer1">
         <div className="cbox1">
-          <div className="image3"></div>
+          <img src="./ui.jpg"/>
           <h2>UI/UX Development</h2>
           <p>
             Step into the captivating world of UI/UX design with our
@@ -51,10 +53,11 @@ const Courses = () => {
             a skilled UI/UX designer and shaping the future of digital
             interaction!
                   </p>
+          <div className="fading"></div>
                   <button>Apply</button>
         </div>
         <div className="cbox1">
-          <div className="image4"></div>
+          <img src="./graphics.jpg"/>
           <h2>Graphics Design</h2>
           <p>
             Unleash your creativity with our cutting-edge graphics design
@@ -65,13 +68,14 @@ const Courses = () => {
             of graphic design. Join us now to ignite your passion and transform
             your artistic vision into compelling visual masterpieces!
           </p>
+          <div className="fading"></div>
           <button>Apply</button>
         </div>
       </div>
 
       <div className="ccontainer2">
         <div className="cbox1">
-          <div className="image5"></div>
+          <img src="./data.jpg"/>
           <h2>Data Analytics</h2>
           <p>
             Discover the power of data with our immersive data analytics course.
@@ -83,10 +87,11 @@ const Courses = () => {
             embark on your journey to becoming a proficient data analyst and
             strategic decision-maker!
           </p>
+          <div className="fading"></div>
           <button>Apply</button>
         </div>
         <div className="cbox1">
-          <div className="image6"></div>
+          <img src="./cyber.jpg"/>
           <h2>CyberSecurity</h2>
           <p>
             Take the first step toward a secure digital future with our
@@ -98,6 +103,7 @@ const Courses = () => {
             Join us now and become a vital guardian of the digital realm,
             ensuring a safer and more secure online environment for all.
           </p>
+          <div className="fading"></div>
           <button>Apply</button>
         </div>
       </div>

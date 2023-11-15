@@ -1,5 +1,10 @@
-
-
+.cfirst-part .title{
+    position: absolute;
+    bottom: 50px;
+}
+.fading{
+    display: none;
+}
 
 .cfirst-part img {
   /* margin-top:16%; */
@@ -10,13 +15,14 @@
   /* background-position: center; */
   /* background-attachment: fixed; */
   width: 100%;
-  height: 400px;
+  height: 500px;
   filter: blur(1.2px);
 /* max-height: auto; */
   /* transform: scale(1.4); */
 }
 
-.ccontainer{
+
+.ccontainer, .ccontainer1, .ccontainer2{
     padding-top: 40px;
     display: flex;
     column-gap: 40px;
@@ -34,103 +40,23 @@
     border-radius: 20px;
     overflow: hidden;
 }
-
-.image{
-    /* position: absolute; */
-    
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 40%;
-    background-image: url("./appdev.jpg");
-    background-size: cover;
-    background-position: center;
+@media (max-width: 1000px) {
+    .ccontainer, .ccontainer1, .ccontainer2{
+        scale: 90%;
+        padding: 0px;
+    }
+    .cbox1{
+        height: 500px;
+    }
 }
 
-
-
-.image2{
-    /* position: absolute; */
-    
-    top: 0;
-    left: 0;
+.cbox1 img{
     width: 100%;
     height: 40%;
-    background-image: url("./webdev.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.image3{
-    /* position: absolute; */
-    
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 40%;
-    background-image: url("./ui.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.image4{
-    /* position: absolute; */
-    
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 40%;
-    background-image: url("./graphics.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.image5{
-    /* position: absolute; */
-    
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 40%;
-    background-image: url("./data.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.image6{
-    /* position: absolute; */
-    
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 40%;
-    background-image: url("./cyber.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-
-.ccontainer1{
-    padding-top: 40px;
-     display: flex;
-    column-gap: 40px;
-    /* align-items:center; */
-    justify-content: center;
-    /* padding: 0 100px; */
-    width: 100%;
-
 }
 
 .ccontainer2{
-    padding-top: 40px;
-     display: flex;
-    column-gap: 40px;
-    /* align-items:center; */
-    justify-content: center;
-    /* padding: 0 100px; */
-    width: 100%;
     padding-bottom: 40px;
-
 }
 
 .cbox1 h2{
@@ -158,6 +84,36 @@ margin-left: 15px;
   font-size: 20px;
   font-weight: bold;
 
+}
+
+@media (max-width: 1000px) {
+    .cbox1 h2{
+        font-size: 1.55rem;
+        padding-left: 5px;
+        padding-top: 5%;
+    }
+    .cbox1 p{
+        font-size: 0.97rem;
+        padding: 5px ;
+    }
+    .cbox1 button{
+        position: absolute;
+        bottom: 10px;
+        margin-left: 40px;
+        width: 100px;
+        height: 40px;
+        border-radius: 30px;
+        font-size: 18px;
+    }
+    .fading{
+        display: block;
+        position: absolute;
+        bottom:0;
+        width: 100%;
+        height: 20%;
+        background: linear-gradient(rgba(0, 13, 73, 0.5) ,
+            rgba(0, 13, 73, 0.9), rgb(0, 13, 73));
+    }
 }
 
 
