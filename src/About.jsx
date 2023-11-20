@@ -126,7 +126,7 @@ const About = () => {
             <div className="boardmembers">
               <div className="boxA">
                 <div className="image1"></div>
-                <h2>Adrian Nim</h2>
+                <h2>Adriana Nimo</h2>
               </div>
               <div className="boxA">
                 <div className="image2"></div>

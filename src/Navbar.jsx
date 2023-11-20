@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import {FaSearch, FaBars } from "react-icons/fa"
 import { IoIosArrowForward} from "react-icons/io"
 
-const navitems = ["Courses", "About", "Financial Aid", "Corporate", "Community"]
+const navitems = ["Courses", "About", "Apply", "Financial Aid"]
 
 const Dropdown = ({header}) => {
   return (
