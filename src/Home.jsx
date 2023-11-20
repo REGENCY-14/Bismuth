@@ -23,6 +23,8 @@ const Homepage = () => {
       </div>
       <>
         <div className="second-part">
+          <h1>Virtual or Inperson training</h1>
+
           <h2>
             <span>Build.</span> <span>Code.</span> <span>Innovate</span>
           </h2>

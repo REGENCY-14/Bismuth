@@ -313,9 +313,16 @@
 
 } */
 
+.second-part h1{
+  font-size: 3rem;
+  padding-left: 5%;
+  padding-top: 5%;
+  color: #cc2020 ;
+}
+
 .second-part h2 {
   position: relative;
-  padding-top: 10%;
+  padding-top: 3%;
   padding-left: 5%;
   font-size: 2.2rem;
 }
@@ -586,6 +593,7 @@
 .footer {
   background-color: rgb(0, 13, 73);
   height: 300px;
+  /* display: flex; */
 }
 
 .footer img{
@@ -593,8 +601,32 @@
   padding-left: 12%;
 }
 
+.icons{
+  margin-top: 5%;
+  padding-left: 12%;
+  display: flex;
+}
 
+.icon1{
+  transform: scale(3);
+  margin-right: 6%;
+}
 
+.icon2{
+  transform: scale(3);
+  margin-right: 6%;
+  /* padding-right: 30%; */
+}
+
+.icon3{
+  transform: scale(3);
+  margin-right: 10px;
+
+}
+
+.quicklinks{
+  flex-direction: column;
+}
 
 
 
