@@ -1,5 +1,34 @@
 .ffirstpart{
-    height: 200px;
+    height: 750px;
+    width: 100%;
+    background-color: #cc2020;
+    display: flex;
+}
+
+.ffirstpart h1{
+    padding:12%;
+    padding-bottom: 0;
+    font-size: 3rem;
+}
+
+.fcontent{
+    padding-left: 0;
+}
+
+.ffirstpart p{
+    padding-left:12%;
+    width: 55%;
+    font-size: 1.3rem;
+    /* flex: initial; */
+}
+
+.image{
+    padding-top: 12%;
+    height: 150px;
     width: 200px;
-    background-color: #000;
+    background-image: url('./round.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 20%;
 }

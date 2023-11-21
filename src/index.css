@@ -423,10 +423,11 @@
 }
 
 .video {
-  height: 350px;
+  height: 500px;
   width: 50%;
-  background-image: url("/vid.JPG");
+  background-image: url("/side.jpg");
   background-size: cover;
+  background-position: center;
   margin-left: 20px;
 }
 
