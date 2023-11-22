@@ -276,7 +276,8 @@
 .textonimage {
   position: absolute;
   top: 40%;
-  padding-left: 5%;
+   padding-left: 5%;
+   padding-right: 5%;
   transform: "translate(-50%,-50%)";
 }
 
@@ -315,7 +316,8 @@
 
 .second-part h1{
   font-size: 3rem;
-  padding-left: 5%;
+   padding-left: 5%;
+   padding-right: 5%;
   padding-top: 5%;
   color: #cc2020 ;
 }
@@ -323,7 +325,8 @@
 .second-part h2 {
   position: relative;
   padding-top: 3%;
-  padding-left: 5%;
+   padding-left: 5%;
+   padding-right: 5%;
   font-size: 2.2rem;
 }
 
@@ -334,7 +337,8 @@
 
 .second-part p {
   position: relative;
-  padding-left: 5%;
+   padding-left: 5%;
+   padding-right: 5%;
   font-size: 1.4rem;
   font-weight: 1000;
   /* text-align: justify; */
@@ -346,17 +350,19 @@
 }
 
 .grid {
-  position: relative;
+  /* position: relative; */
   padding: 5%;
   display: flex;
-  column-gap: 20px;
+  justify-content: space-around;
   padding-top: 50px;
+  flex-flow: wrap;
+  width: 90%;
 }
 
 .box-1 {
   position: relative;
   height: 220px;
-  width: 296px;
+  width: 20%;
   /* background-size: cover; */
   background-repeat: no-repeat;
   /* background-size:22rem; */
@@ -368,7 +374,7 @@
 .box-2 {
   position: relative;
   height: 220px;
-  width: 296px;
+  width: 20%;
   /* background-size: cover; */
   background-repeat: no-repeat;
   /* background-size:22rem; */
@@ -380,7 +386,7 @@
 .box-3{
   position: relative;
   height: 220px;
-  width: 296px;
+  width: 20%;
   /* background-size: cover; */
   background-repeat: no-repeat;
   /* background-size:22rem; */
@@ -392,7 +398,7 @@
 .box-4 {
   position: relative;
   height: 220px;
-  width: 296px;
+  width: 20%;
   /* background-size: cover; */
   background-image: url("/entrepreneurship.png");
   border-radius: 5px;
@@ -416,7 +422,8 @@
 
 .grid2 {
   position: relative;
-  padding-left: 5%;
+   padding-left: 5%;
+   padding-right: 5%;
   column-gap: 20px;
   padding-top: 150px;
   display: flex;
@@ -440,6 +447,7 @@
   font-size: 1.7rem;
   font-weight: 700;
   line-height: 2rem;
+  text-align: center;
 }
 
 .values {
@@ -448,6 +456,19 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   /* grid-gap: 20px; */
+}
+
+.value1{
+  margin-top: -20%;
+  margin-left: 23%;
+}
+
+.value2{
+  margin-top:-26%
+}
+
+.value4{
+  margin-top: 16%;
 }
 
 .slideshow-bg {
@@ -516,6 +537,8 @@
 .sixth-part p {
   text-align: center;
   padding-top: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
   font-size: 1.5rem;
   font-weight: 1000;
   line-height: 3rem;
@@ -600,41 +623,108 @@
   height: 500px;
 }
 
-/* .footer {
-  background-color: rgb(0, 13, 73);
-  height: 300px;
+@media (max-width:768px){
+  .textonimage h2{
+    margin-top: -30px;;
+    font-size: 45px;
+  }
+
+  .box-1{
+    height:200px;
+    width:286px;
+  }
+  .box-2{
+    height:200px;
+    width:286px;
+  }
+  .box-3{
+    height:200px;
+    width:286px;
+  }
+  .box-4{
+    height:200px;
+    width:286px;
+  }
+  
+  .text{
+    height: 55px;
+  }
+  .text h2{
+    font-size: 1rem;
+  }
+
+  .sixth-part p{
+    font-size: 1.3rem;
+  }
+
+  .firsthalf h2{
+    padding: 10%;
+    font-size: 1.4rem;
+  }
 }
 
-.footer img{
-  padding-top: 3%;
-  padding-left: 12%;
+@media (max-width:425px){
+  .first-part img{
+    height: 500px;
+    transform: scale(1.2);
+    background-size: cover;
+
+  }
+    
+   .textonimage h2{
+      font-size: 35px;
+      margin-top: -20%;
+    }
+
+    .textonimage p{
+      margin-top: -5%;
+      font-size: 18px;
+    }
+
+    .textonimage button{
+      width: 400px;
+    }
+
+    .second-part{
+      text-align: center;
+    }
+
+    .second-part h1{
+      padding-top: 15%;
+    }
+
+    .grid{
+      /* margin-left: 10%;      */
+    }
+
+    /* .third-part{
+      text-align: center;
+    } */
+
+    .grid2{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .video{
+      width: 100%;
+    }
+
+    .video-text {
+      width: 100%;
+    }
+
+    .video-text p{
+      padding-top:30px ;
+    }
+        
+    .values{
+      text-align: center;
+    }
+
+
+    
 }
-
-.icons{
-  margin-top: 5%;
-  padding-left: 12%;
-  display: flex;
-}
-
-.icon1{
-  transform: scale(3);
-  margin-right: 6%;
-}
-
-.icon2{
-  transform: scale(3);
-  margin-right: 6%;
-}
-
-.icon3{
-  transform: scale(3);
-  margin-right: 10px;
-
-}
-
-.quicklinks{
-  flex-direction: column;
-} */
 
 
 

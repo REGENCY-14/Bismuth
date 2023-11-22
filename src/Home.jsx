@@ -8,7 +8,7 @@ const Homepage = () => {
         <img src="/intro1.jpg" alt="" />
         <div className="textonimage">
           <h2>
-            Empowering Young Minds<br></br>Through STEM Innovation
+            Empowering Young Minds Through STEM Innovation
           </h2>
           <p>
             Through the power of STEM innovation, we inspire and enable young{" "}
@@ -33,37 +33,32 @@ const Homepage = () => {
           <br />
           <p>
             At BitLabs, our mission is to ignite a passion for learning in young
-            minds through engaging and interactive <br /> STEM (Science,
+            minds through engaging and interactive STEM (Science,
             Technology, Engineering, and Mathematics) innovations. We are
             dedicated to providing hands-on,
-            <br /> practical experiences that not only nurture creativity and
-            critical thinking but <br /> also aim to cultivate a strong <br />
+             practical experiences that not only nurture creativity and
+            critical thinking but also aim to cultivate a strong 
             foundation of essential skill sets necessary for navigating the
-            challenges of the modern world. Our holistic <br />
+            challenges of the modern world. Our holistic 
             approach to education fosters an environment where students can
-            explore, experiment, and develop a deep <br /> understanding of
+            explore, experiment, and develop a deep understanding of
             various scientific and technological concepts, empowering them to
-            become confident <br /> problem-solvers and innovative thinkers.
+            become confident problem-solvers and innovative thinkers.
           </p>
         </div>
       </>
       <div className="grid">
-        <div className="box-1">
+        <div className="  box-1">
           <div className="text">
             <h2>Robotics Workshop</h2>
-            {/* <p>
-              We organize hands-on workshops where children can learn the basics
-              of robotics, build their own robots, and program them to perform
-              specific tasks or challenges.
-            </p> */}
           </div>
         </div>
-        <div className="box-2">
+        <div className=" box-2">
           <div className="text">
             <h2>Collaborative Challenges</h2>
           </div>
         </div>
-        <div className="box-3">
+        <div className=" box-3">
           <div className="text">
             <h2>Maker Activities</h2>
           </div>
@@ -92,10 +87,10 @@ const Homepage = () => {
                 <div className="value2">
                   <img src="./hilltop.png" alt="" />
                 </div>
-                <div className="value2">
+                <div className="value3">
                   <img src="./Mount Olivet School Logo.png" alt="" />
                 </div>
-                <div className="value2">
+                <div className="value4">
                   <img src="./nagies school.png" alt="" />
                 </div>
               </div>
@@ -122,18 +117,18 @@ const Homepage = () => {
 
       <div className="sixth-part">
         <p>
-          BitLabs, with its highly qualified and experienced trainers, is <br />
+          BitLabs, with its highly qualified and experienced trainers, is 
           dedicated to guiding individuals to become exceptional programmers in{" "}
-          <br />
-          their chosen courses. The institution emphasizes a dynamic and <br />
+        
+          their chosen courses. The institution emphasizes a dynamic and 
           supportive learning environment, offering personalized instruction to{" "}
-          <br />
+          
           cater to varying skill levels. BitLabs is committed to empowering{" "}
-          <br />
+          
           learners, ensuring their success through comprehensive training and{" "}
-          <br />
+          
           individualized attention. Join BitLabs to embark on a transformative{" "}
-          <br />
+          
           journey toward excellence in programming.
         </p>
       </div>
