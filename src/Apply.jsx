@@ -10,7 +10,7 @@ const Apply = () => {
           src="https://form.jotform.com/jsform/233230093591552"
      ></script>
       </Helmet> */}
-            <JotformEmbed src="https://form.jotform.com/233230093591552"/>
+            {/* <JotformEmbed src="https://form.jotform.com/233230093591552"></JotformEmbed> */}
     </>
   );
 };

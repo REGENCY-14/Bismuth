@@ -3,7 +3,7 @@ const Courses = () => {
   return (
     <>
       <div className="cfirst-part">
-        <img src="/intro.jpg" alt=""/>
+        <img src="/intro1.jpg" alt=""/>
         <div className="textonimage">
           <h2 className="title">Courses </h2>
         </div>

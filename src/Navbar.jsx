@@ -97,7 +97,7 @@ const Navbar = () => {
       </div>
       <div className="button">
         <FaSearch className="icon"/>
-        <button onClick={handleCountry}>
+        {/* <button onClick={handleCountry}>
           <img id="kenya" src="/ke.svg"/>
           Kenya
           <div className="cover"></div>
@@ -114,7 +114,7 @@ const Navbar = () => {
             </div>
           }
           
-        </button>
+        </button> */}
         <FaBars id='nav_button' onClick={changeSidebar}/>
       </div>
     </nav>

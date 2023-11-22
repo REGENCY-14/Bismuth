@@ -2,13 +2,13 @@ const About = () => {
     return (
       <>
         <div className="afirst-part">
-          <img src="/about.jpg" alt="" />
+          <img src="/about3.jpg" alt="" />
           <div className="overlay"></div>
           <div className="textonimage">
             <h3>OUR VISION</h3>
             <h2>
               Fostering innovation and creativity among the younger generation
-              <br /> through STEM.
+               through STEM.
             </h2>
             <p>
               Our primary objective is to actively involve and inspire the
@@ -74,15 +74,15 @@ const About = () => {
             <div className="container">
               <div className="box">
                 <div className="img1"></div>
-                <h2>Mentorship</h2>
+                <h2>Innovate</h2>
               </div>
               <div className="box">
                 <div className="img2"></div>
-                <h2>Perseverance</h2>
+                <h2>Build</h2>
               </div>
               <div className="box">
                 <div className="img3"></div>
-                <h2>Collaboration</h2>
+                <h2>Launch</h2>
               </div>
             </div>
           </div>

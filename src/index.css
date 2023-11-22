@@ -174,7 +174,7 @@
 .arrow1 *{
   color: white;
 }
-@media (max-width: 1000px) {
+@media (max-width: 425px) {
   .navbar{
     justify-content: space-between;
   }
@@ -347,7 +347,7 @@
 
 .grid {
   position: relative;
-  padding-left: 5%;
+  padding: 5%;
   display: flex;
   column-gap: 20px;
   padding-top: 50px;
@@ -395,7 +395,7 @@
   width: 296px;
   /* background-size: cover; */
   background-image: url("/entrepreneurship.png");
-  /* border-radius: 5px; */
+  border-radius: 5px;
 }
 
 .text {
@@ -409,7 +409,7 @@
 .text h2 {
   position: relative;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   top: 25%;
   color: rgb(255, 208, 0);
 }
@@ -435,18 +435,19 @@
   width: 50%;
   background-color: rgb(253, 253, 253);
   margin-right: 20px;
-  padding: 50px;
+  padding: 30px;
+  padding-top: 0;
   font-size: 1.7rem;
   font-weight: 700;
   line-height: 2rem;
 }
 
 .values {
-  column-gap: 20px;
+  /* column-gap: px; */
   padding-top: 70px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
+  /* grid-gap: 20px; */
 }
 
 .slideshow-bg {
@@ -455,10 +456,13 @@
   height: 500px;
   width: 100%;
   background-color: rgb(0, 13, 73);
+  display: grid;
   align-items: center;
+  
 }
 
 .slideshow-overlay {
+  /* justify-content: center; */
   position: absolute;
   height: 350px;
   width: 70%;
@@ -469,8 +473,11 @@
 }
 
 .slideshow-overlay img {
+  /* justify-content: center; */
+  display: block;
+  margin: auto;
   height: 350px;
-  padding-left: 30%;
+  /* padding-left: 30%; */
 }
 
 .fifth-part {
@@ -501,7 +508,7 @@
 }
 
 .sixth-part {
-  height: 850px;
+  height: 550px;
   width: 100%;
   background-color:rgb(0, 13, 73)
 }
@@ -509,9 +516,10 @@
 .sixth-part p {
   text-align: center;
   padding-top: 50px;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 1000;
   line-height: 3rem;
+  color: white;
 }
 
 .seventh-part {
@@ -527,17 +535,18 @@
 
 .secondhalf {
   height: 600px;
-  background-image: url("/grid.jpg");
+  background-image: url("/black.jpg");
   background-size: cover;
+  background-position: cen;
   width: 50%;
 }
 
 .firsthalf h2 {
-  padding-left: 50px;
+  padding: 50px;
   padding-top: 15%;
   text-align: justify;
-  font-size: 2rem;
-  color: orangered;
+  font-size: 1.6rem;
+  /* color: orangered; */
 }
 
 .firsthalf p {
@@ -591,10 +600,9 @@
   height: 500px;
 }
 
-.footer {
+/* .footer {
   background-color: rgb(0, 13, 73);
   height: 300px;
-  /* display: flex; */
 }
 
 .footer img{
@@ -616,7 +624,6 @@
 .icon2{
   transform: scale(3);
   margin-right: 6%;
-  /* padding-right: 30%; */
 }
 
 .icon3{
@@ -627,7 +634,11 @@
 
 .quicklinks{
   flex-direction: column;
-}
+} */
+
+
+
+
 
 
 

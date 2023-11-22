@@ -1,10 +1,11 @@
 import Slider from "./slideshow";
+import './index.css'
 
 const Homepage = () => {
   return (
     <div className="Home">
       <div className="first-part">
-        <img src="/intro.jpg" alt="" />
+        <img src="/intro1.jpg" alt="" />
         <div className="textonimage">
           <h2>
             Empowering Young Minds<br></br>Through STEM Innovation
@@ -36,7 +37,7 @@ const Homepage = () => {
             Technology, Engineering, and Mathematics) innovations. We are
             dedicated to providing hands-on,
             <br /> practical experiences that not only nurture creativity and
-            critical thinking but also aim to cultivate a strong <br />
+            critical thinking but <br /> also aim to cultivate a strong <br />
             foundation of essential skill sets necessary for navigating the
             challenges of the modern world. Our holistic <br />
             approach to education fosters an environment where students can
@@ -86,26 +87,16 @@ const Homepage = () => {
             <>
               <div className="values">
                 <div className="value1">
-                  4000+
-                  <p>
-                    Enrolled <br /> Students
-                  </p>
+                  <img src="./Good Shepherd RC logo.png" alt="" />
                 </div>
                 <div className="value2">
-                  4000+
-                  <p>Graduates</p>
+                  <img src="./hilltop.png" alt="" />
                 </div>
                 <div className="value2">
-                  4000+
-                  <p>
-                    Employer <br /> Partners
-                  </p>
+                  <img src="./Mount Olivet School Logo.png" alt="" />
                 </div>
                 <div className="value2">
-                  4000+
-                  <p>
-                    Employment <br /> Rate
-                  </p>
+                  <img src="./nagies school.png" alt="" />
                 </div>
               </div>
             </>
@@ -119,7 +110,7 @@ const Homepage = () => {
           </div>
         </div>
       </div>
-      <div className="fifth-part">
+      {/* <div className="fifth-part">
         <p>
           Market-aligned Courses Curated for Your <br />
           Career Success
@@ -127,40 +118,40 @@ const Homepage = () => {
         <div className="slideshow2">
           <Slider />
         </div>
-      </div>
+      </div> */}
 
       <div className="sixth-part">
         <p>
-          Our Career Day events and recruitment <br /> drives have helped over
-          85% of our core <br /> graduates find meaningful employment <br />{" "}
-          within 6-months post- <br />
-          graduation
+          BitLabs, with its highly qualified and experienced trainers, is <br />
+          dedicated to guiding individuals to become exceptional programmers in{" "}
+          <br />
+          their chosen courses. The institution emphasizes a dynamic and <br />
+          supportive learning environment, offering personalized instruction to{" "}
+          <br />
+          cater to varying skill levels. BitLabs is committed to empowering{" "}
+          <br />
+          learners, ensuring their success through comprehensive training and{" "}
+          <br />
+          individualized attention. Join BitLabs to embark on a transformative{" "}
+          <br />
+          journey toward excellence in programming.
         </p>
       </div>
       <div className="seventh-part">
         <div className="firsthalf">
           <h2>
-            Improving access to quality <br /> education through financial aid
+            BitLabs is a leading educational institution promoting inclusivity
+            for aspiring programmers. With a focus on encouraging women in
+            programming, we offer a supportive space. Committed to breaking
+            barriers, we empower individuals, regardless of gender, in coding
+            and software development. Join BitLabs for a diverse, welcoming, and
+            empowering experience. Thrive in the dynamic field of programming
+            excellence with us.
           </h2>
-
-          <p>
-            We believe that quality education should be accessible <br /> to all
-            who want to learn regardless of their financial <br />
-            circumstances. Your Moringa education will now be <br /> made
-            affordable and accessible through a number of <br /> Student
-            Financing options such as Loans and Partial <br />
-            Scholarships.
-          </p>
-          <button>Learn More</button>
         </div>
         <div className="secondhalf"></div>
       </div>
-      <div className="last-part">
-        <h2>From the BitLabs world</h2>
-        <div className="lastslideshow">
-          <Slider />
-        </div>
-      </div>
+      
     </div>
   );
 };

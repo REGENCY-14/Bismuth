@@ -6,6 +6,7 @@ import './coursesindex.css'
 import './about.css'
 import './apply.css'
 import './financial.css'
+import './foot.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

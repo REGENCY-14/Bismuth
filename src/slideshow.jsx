@@ -13,23 +13,19 @@ const Slider = () => {
         // scrollbar={{ draggable: true }}
       >
         <SwiperSlide>
-          <img src="images\grid1.jpg" alt="" />
+          <img src="./t1.jpg" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="images\grid1.jpg" alt="" />
+          <img src="./t2.jpg" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="images\grid1.jpg" alt="" />
+          <img src="./t3.jpg" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="images\grid1.jpg" alt="" />
+          <img src="./t4.jpg" alt="" />
         </SwiperSlide>
-        <SwiperSlide>
-          <img src="images\grid1.jpg" alt="" />
-        </SwiperSlide>{" "}
-        <SwiperSlide>
-          <img src="images\grid1.jpg" alt="" />
-        </SwiperSlide>
+      
+       
       </Swiper>
     );
 }
