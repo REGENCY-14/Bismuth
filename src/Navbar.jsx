@@ -1,32 +1,32 @@
 import { useState, useEffect } from "react";
-import { FaSearch, FaBars } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
 import { IoIosArrowForward } from "react-icons/io";
 
 const navitems = ["Home","About", "Courses", "Financial Aid", "Apply"];
 
-const Dropdown = ({ header }) => {
-  return (
-    <div className="dropdown">
-      <ul className="dropdown-list">
-        <li className="dropdown-item">{header}</li>
-        <li className="dropdown-item">All course</li>
-        <li className="dropdown-item">All course</li>
-        <li className="dropdown-item">All course</li>
-        <li className="dropdown-item">All course</li>
-        <li className="dropdown-item">All course</li>
-        <li className="dropdown-item">All course</li>
-        <li className="dropdown-item">All course</li>
-        <li className="dropdown-item">All course</li>
-      </ul>
-    </div>
-  );
-};
+// const Dropdown = ({ header }) => {
+//   return (
+//     <div className="dropdown">
+//       <ul className="dropdown-list">
+//         <li className="dropdown-item">{header}</li>
+//         <li className="dropdown-item">All course</li>
+//         <li className="dropdown-item">All course</li>
+//         <li className="dropdown-item">All course</li>
+//         <li className="dropdown-item">All course</li>
+//         <li className="dropdown-item">All course</li>
+//         <li className="dropdown-item">All course</li>
+//         <li className="dropdown-item">All course</li>
+//         <li className="dropdown-item">All course</li>
+//       </ul>
+//     </div>
+//   );
+// };
 
 const Navbar = () => {
-  const [showCountry, setShowCountry] = useState(false);
-  const handleCountry = () => {
-    setShowCountry(!showCountry);
-  };
+  // const [showCountry, setShowCountry] = useState(false);
+  // const handleCountry = () => {
+  //   setShowCountry(!showCountry);
+  // };
 
   const [isMobile, setIsMobile] = useState(false);
   useEffect(() => {
@@ -95,7 +95,7 @@ const Navbar = () => {
               <button onClick={() => handleClick(index)}>
                 <IoIosArrowForward size={30} className="arrow1" />
               </button>
-              {itemHovered === index && <Dropdown header={navitem} />}
+              {/* {itemHovered === index && <Dropdown header={navitem} />} */}
             </li>
           ))}
         </ul>
