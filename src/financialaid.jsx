@@ -45,6 +45,14 @@ const Financial = () => {
             are here to help make the sponsorship process clear and tailored to
             your needs.
           </p>
+          <div className="sponsors">
+            <h2>Current sponsors</h2>
+
+            <div className="currrentsponsors">
+              <img className="bb" src="./Bismuth (1).png" alt="" />
+              <img src="./YAF1 (1).png" alt="" />
+            </div>
+          </div>
         </div>
       </div>
     );

@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
-import {FaSearch, FaBars } from "react-icons/fa"
-import { IoIosArrowForward} from "react-icons/io"
+import { FaSearch, FaBars } from "react-icons/fa";
+import { IoIosArrowForward } from "react-icons/io";
 
-const navitems = ["Courses", "About", "Apply", "Financial Aid"]
+const navitems = ["Home","About", "Courses", "Financial Aid", "Apply"];
 
-const Dropdown = ({header}) => {
+const Dropdown = ({ header }) => {
   return (
     <div className="dropdown">
       <ul className="dropdown-list">
@@ -19,32 +19,32 @@ const Dropdown = ({header}) => {
         <li className="dropdown-item">All course</li>
       </ul>
     </div>
-  )
-}
+  );
+};
 
 const Navbar = () => {
   const [showCountry, setShowCountry] = useState(false);
   const handleCountry = () => {
-    setShowCountry(!showCountry)
-  }
+    setShowCountry(!showCountry);
+  };
 
   const [isMobile, setIsMobile] = useState(false);
   useEffect(() => {
     const mediaQuery = window.matchMedia("(max-width: 1000px)");
     setIsMobile(mediaQuery.matches);
     const handleMediaQueryChange = (event) => {
-    setIsMobile(event.matches);
-  };
-  mediaQuery.addEventListener("change", handleMediaQueryChange);
-  return () => {
-    mediaQuery.removeEventListener("change", handleMediaQueryChange);
-  };
+      setIsMobile(event.matches);
+    };
+    mediaQuery.addEventListener("change", handleMediaQueryChange);
+    return () => {
+      mediaQuery.removeEventListener("change", handleMediaQueryChange);
+    };
   }, []);
 
   const [showSidebar, setShowSidebar] = useState(false);
   const changeSidebar = () => {
-      setShowSidebar(!showSidebar);
-  }
+    setShowSidebar(!showSidebar);
+  };
 
   const [itemHovered, setItemHovered] = useState(-1);
   const [timeoutId, setTimeoutId] = useState(null);
@@ -52,51 +52,56 @@ const Navbar = () => {
   // hover if mobile, else click if not mobile screen
   const handleMouseEnter = (item) => {
     clearTimeout(timeoutId);
-    if(!isMobile){setItemHovered(item);}
+    if (!isMobile) {
+      setItemHovered(item);
+    }
   };
 
   const handleMouseLeave = () => {
-    if(!isMobile){
-    const id = setTimeout(() => {
-      setItemHovered(-1);
-     }, 500); // adjust the delay time as needed
-    setTimeoutId(id);
-  }
+    if (!isMobile) {
+      const id = setTimeout(() => {
+        setItemHovered(-1);
+      }, 500); // adjust the delay time as needed
+      setTimeoutId(id);
+    }
   };
 
   const handleClick = (item) => {
-    if(item === itemHovered){
+    if (item === itemHovered) {
       setItemHovered(-1);
-    }else{
+    } else {
       setItemHovered(item);
     }
-  }
-  
+  };
 
   return (
     <nav className="navbar">
-      <div className="logo"><img src="/bitlab-logo.svg"/></div>
+      <div className="logo">
+        <img src="/bitlab-logo.svg" />
+      </div>
       <div className="links">
-        <ul className={`scroll ${(showSidebar) ? '' : 'hidden'}`}>
-          <li className="sm-img"><img src="/logo-white.png"/></li>
-          {
-            navitems.map((navitem, index) => (
-              <li key={index}
-              className={`navbar-item ${(itemHovered === index)? "active" : ""}`}
+        <ul className={`scroll ${showSidebar ? "" : "hidden"}`}>
+          <li className="sm-img">
+            <img src="/logo-white.png" />
+          </li>
+          {navitems.map((navitem, index) => (
+            <li
+              key={index}
+              className={`navbar-item ${itemHovered === index ? "active" : ""}`}
               onMouseEnter={() => handleMouseEnter(index)}
-              onMouseLeave={handleMouseLeave}>
-                <a href={navitem.split(" ")[0]}>{navitem}</a>
-                <button onClick={() => handleClick(index)}>
-                  <IoIosArrowForward size={30} className="arrow1"/>
-                </button>
-                {(itemHovered === index) && (<Dropdown header={navitem}/>)}
-              </li>
-            ))
-          }
+              onMouseLeave={handleMouseLeave}
+            >
+              <a href={navitem.split(" ")[0]}>{navitem}</a>
+              <button onClick={() => handleClick(index)}>
+                <IoIosArrowForward size={30} className="arrow1" />
+              </button>
+              {itemHovered === index && <Dropdown header={navitem} />}
+            </li>
+          ))}
         </ul>
       </div>
       <div className="button">
-        <FaSearch className="icon"/>
+        {/* <FaSearch className="icon" /> */}
         {/* <button onClick={handleCountry}>
           <img id="kenya" src="/ke.svg"/>
           Kenya
@@ -115,7 +120,7 @@ const Navbar = () => {
           }
           
         </button> */}
-        <FaBars id='nav_button' onClick={changeSidebar}/>
+        <FaBars id="nav_button" onClick={changeSidebar} />
       </div>
     </nav>
   );

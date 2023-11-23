@@ -99,17 +99,7 @@ const About = () => {
           <div className="forthsection">
             <h1>OUR JOURNEY</h1>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid
-              odio quibusdam temporibus animi sint, fuga vel, error ab
-              praesentium adipisci, distinctio earum provident suscipit
-              architecto laborum autem possimus culpa eos. Lorem ipsum dolor,
-              sit amet consectetur adipisicing elit. Fugiat odit vel et quod qui
-              excepturi perspiciatis doloremque accusantium labore aut, maiores
-              asperiores molestiae facilis, doloribus provident at beatae eaque!
-              Nostrum?Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Beatae sequi, quam ab dolor soluta harum dolorum inventore minima
-              voluptate natus corrupti. At, expedita natus provident cumque quis
-              ullam animi
+              In 2022, Bitlabs began its mission to democratize STEM education in schools, particularly for children with limited resources. The aim is to integrate STEM subjects seamlessly into the standard curriculum, closing educational gaps and fostering a genuine passion for science and technology. Through dynamic programs, Bitlabs strives to make STEM as fundamental as other core subjects, creating a brighter and more inclusive educational landscape.
             </p>
           </div>
           <div className="wave4">
@@ -122,7 +112,7 @@ const About = () => {
             </svg> */}
           </div>
           <div className="lastsection">
-            <h1>BOARD MEMBERS</h1>
+            <h1>TEAM MEMBERS</h1>
             <div className="boardmembers">
               <div className="boxA">
                 <div className="image1"></div>

@@ -7,9 +7,7 @@ const Homepage = () => {
       <div className="first-part">
         <img src="/intro1.jpg" alt="" />
         <div className="textonimage">
-          <h2>
-            Empowering Young Minds Through STEM Innovation
-          </h2>
+          <h2>Empowering Young Minds Through STEM Innovation</h2>
           <p>
             Through the power of STEM innovation, we inspire and enable young{" "}
             <br></br>minds to explore, create, and overcomee challenges,
@@ -24,7 +22,7 @@ const Homepage = () => {
       </div>
       <>
         <div className="second-part">
-          <h1>Virtual or Inperson training</h1>
+          <h1>Virtual or In-person Training</h1>
 
           <h2>
             <span>Build.</span> <span>Code.</span> <span>Innovate</span>
@@ -33,22 +31,21 @@ const Homepage = () => {
           <br />
           <p>
             At BitLabs, our mission is to ignite a passion for learning in young
-            minds through engaging and interactive STEM (Science,
-            Technology, Engineering, and Mathematics) innovations. We are
-            dedicated to providing hands-on,
-             practical experiences that not only nurture creativity and
-            critical thinking but also aim to cultivate a strong 
+            minds through engaging and interactive STEM (Science, Technology,
+            Engineering, and Mathematics) innovations. We are dedicated to
+            providing hands-on, practical experiences that not only nurture
+            creativity and critical thinking but also aim to cultivate a strong
             foundation of essential skill sets necessary for navigating the
-            challenges of the modern world. Our holistic 
-            approach to education fosters an environment where students can
-            explore, experiment, and develop a deep understanding of
-            various scientific and technological concepts, empowering them to
-            become confident problem-solvers and innovative thinkers.
+            challenges of the modern world. Our holistic approach to education
+            fosters an environment where students can explore, experiment, and
+            develop a deep understanding of various scientific and technological
+            concepts, empowering them to become confident problem-solvers and
+            innovative thinkers.
           </p>
         </div>
       </>
       <div className="grid">
-        <div className="  box-1">
+        {/* <div className="  box-1">
           <div className="text">
             <h2>Robotics Workshop</h2>
           </div>
@@ -67,6 +64,22 @@ const Homepage = () => {
           <div className="text">
             <h2>Entrepreneurship</h2>
           </div>
+        </div> */}
+        <div className="boxes">
+          <img src="./robotics.png" alt="" />
+          <h2>Robotics Workshop</h2>
+        </div>
+        <div className="boxes">
+          <img src="./stemcafe4.JPG" alt="" />
+          <h2>Collaborative Challenges</h2>
+        </div>
+        <div className="boxes">
+          <img src="./maker.png" alt="" />
+          <h2>Maker Activities</h2>
+        </div>
+        <div className="boxes">
+          <img src="./entrepreneurship.png" alt="" />
+          <h2>Entrepreneurship</h2>
         </div>
       </div>
 
@@ -117,18 +130,13 @@ const Homepage = () => {
 
       <div className="sixth-part">
         <p>
-          BitLabs, with its highly qualified and experienced trainers, is 
+          BitLabs, with its highly qualified and experienced trainers, is
           dedicated to guiding individuals to become exceptional programmers in{" "}
-        
-          their chosen courses. The institution emphasizes a dynamic and 
+          their chosen courses. The institution emphasizes a dynamic and
           supportive learning environment, offering personalized instruction to{" "}
-          
           cater to varying skill levels. BitLabs is committed to empowering{" "}
-          
           learners, ensuring their success through comprehensive training and{" "}
-          
           individualized attention. Join BitLabs to embark on a transformative{" "}
-          
           journey toward excellence in programming.
         </p>
       </div>
@@ -146,7 +154,6 @@ const Homepage = () => {
         </div>
         <div className="secondhalf"></div>
       </div>
-      
     </div>
   );
 };

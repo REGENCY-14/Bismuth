@@ -41,22 +41,26 @@ const Foot = () => {
               </a>
             </div>
             <div className="sb__footer-links_div">
-              <h4>Questions?</h4>
+              <h4>Contact</h4>
               <a className="unclickable" href="/employer">
-                <p>+233 55 713 5164</p>
+                <p>+233 59 277 1234</p>
+                <p>0240894565</p>
+                <p>+1 (540) 617-2840</p>
               </a>{" "}
               <a className="unclickable" href="/employer">
                 <p>info@bismuthinc.com</p>
               </a>{" "}
               <a className="unclickable" href="/employer">
-                <p>135 Mankessim
-                  <br /><br /> Kumasi Road
+                <p>
+                  135 Mankessim
+                  <br />
+                  <br /> Kumasi Road
                 </p>
               </a>
             </div>
             <div className="sb__footer-links_div">
-              <h4>Coming Soon</h4>
               <div className="socialmedia">
+                <img src="./bitlab-logo.svg" alt="" />
                 <p>
                   <img src="" alt="" />
                 </p>

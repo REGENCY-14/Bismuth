@@ -73,6 +73,25 @@
     font-weight: 700;
 }
 
+.sponsors h2{
+    font-size: 3rem;
+    color:rgb(0, 13, 73);
+}
+
+.currrentsponsors{
+    display: flex;
+    /* column-gap: 20px; */
+    justify-content: space-around;
+}
+
+.currrentsponsors img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
 @media (max-width:425px){
     .ffirstpart{
         flex-direction: column;
