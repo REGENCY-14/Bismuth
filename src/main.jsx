@@ -7,6 +7,7 @@ import './about.css'
 import './apply.css'
 import './financial.css'
 import './foot.css'
+import './gallery.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

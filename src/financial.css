@@ -4,7 +4,7 @@
     background-color: #ffffff;
     display: flex;
     justify-content: space-between;
-    margin-top: 0.1%;
+    margin-top: 0%;
     
 }
 
@@ -73,10 +73,22 @@
     font-weight: 700;
 }
 
-.sponsors h2{
+.sponsors h1{
     font-size: 3rem;
     color:rgb(0, 13, 73);
 }
+
+.click{
+    height:50px;
+    background-color: yellow;
+    padding: 2%;
+}
+
+.click h2{
+    font-size: 1.7rem;
+    font-weight: 900;
+}
+
 
 .currrentsponsors{
     display: flex;
@@ -88,6 +100,9 @@
     max-width: 100%;
     height: auto;
     display: block;
+}
+.bb{
+    transform: scale(0.8);
 }
 
 

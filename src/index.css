@@ -291,14 +291,12 @@
   font-weight: bold;
 }
 
+
+
+
 .second-part h1{
   text-align: center;
-}
-
-
-
-.second-part h1{
-  font-size: 2rem;
+  font-size: 3rem;
    padding-left: 5%;
    padding-right: 5%;
   padding-top: 5%;
@@ -440,6 +438,21 @@
   text-align: center;
 }
 
+.forkids {
+  width: 250px;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgb(0, 153, 255);
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* .kids{
+  text-align: center;
+} */
+
 .values {
   padding-top: 30px;
   display:grid;
@@ -532,14 +545,23 @@
 
 .secondhalf {
   height: 600px;
-  background-image: url("/black.jpg");
+  background-image: url("/collab.jpg");
   background-size: cover;
   width: 50%;
 }
 
+.firsthalf h1{
+  padding-top: 5%;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.firsthalf  h1 span:nth-child(1) {color: #cc2020;}
+.firsthalf h1 span:nth-child(2) {color: green;}.firsthalf h1 span:nth-child(3) {color:orangered;}
+
 .firsthalf h2 {
   padding: 50px;
-  padding-top: 15%;
+  padding-top: 3%;
   text-align: justify;
   font-size: 1.6rem;
 }
@@ -658,7 +680,8 @@
       text-align: center;
     }
    .second-part h1{
-      padding-top: 15%;
+    font-size: 1.6rem;
+      padding-top: 5%;
     }
 
   

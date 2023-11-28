@@ -14,7 +14,7 @@ const Homepage = () => {
             equipping them with the <br /> kills and mindset to become future
             problem solvers and trailblazers
           </p>
-          <button className="availableCourses">SEE AVAILABLE COURSES</button>
+          <button className="availableCourses">APPLY</button>
           {/* <div className="innersection">
                   
               </div> */}
@@ -30,7 +30,7 @@ const Homepage = () => {
           <br />
           <br />
           <p>
-            At BitLabs, our mission is to ignite a passion for learning in young
+            At BITLabs, our mission is to ignite a passion for learning in young
             minds through engaging and interactive STEM (Science, Technology,
             Engineering, and Mathematics) innovations. We are dedicated to
             providing hands-on, practical experiences that not only nurture
@@ -82,6 +82,9 @@ const Homepage = () => {
           <h2>Entrepreneurship</h2>
         </div>
       </div>
+      <div className="kids">
+        {/* <button className="forkids">FOR KIDS</button> */}
+      </div>
 
       <div className="third-part">
         <div className="grid2">
@@ -130,26 +133,29 @@ const Homepage = () => {
 
       <div className="sixth-part">
         <p>
-          BitLabs, with its highly qualified and experienced trainers, is
+          BITLabs, with its highly qualified and experienced trainers, is
           dedicated to guiding individuals to become exceptional programmers in{" "}
           their chosen courses. The institution emphasizes a dynamic and
           supportive learning environment, offering personalized instruction to{" "}
-          cater to varying skill levels. BitLabs is committed to empowering{" "}
+          cater to varying skill levels. BITLabs is committed to empowering{" "}
           learners, ensuring their success through comprehensive training and{" "}
-          individualized attention. Join BitLabs to embark on a transformative{" "}
+          individualized attention. Join BITLabs to embark on a transformative{" "}
           journey toward excellence in programming.
         </p>
       </div>
       <div className="seventh-part">
         <div className="firsthalf">
+          <h1>
+            {" "}
+            <span>WOMEN</span> <span>in</span> <span>STEM </span>
+          </h1>
           <h2>
-            BitLabs is a leading educational institution promoting inclusivity
-            for aspiring programmers. With a focus on encouraging women in
-            programming, we offer a supportive space. Committed to breaking
-            barriers, we empower individuals, regardless of gender, in coding
-            and software development. Join BitLabs for a diverse, welcoming, and
-            empowering experience. Thrive in the dynamic field of programming
-            excellence with us.
+            BITLabs promotes inclusivity for aspiring programmers. With a focus
+            on encouraging women in programming, we offer a supportive space.
+            Committed to breaking barriers, we empower individuals, regardless
+            of gender, in coding and software development. Join BITLabs for a
+            diverse, welcoming, and empowering experience. Thrive in the dynamic
+            field of programming excellence with us.
           </h2>
         </div>
         <div className="secondhalf"></div>

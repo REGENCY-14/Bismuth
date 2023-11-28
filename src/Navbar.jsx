@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { FaBars } from "react-icons/fa";
 import { IoIosArrowForward } from "react-icons/io";
 
-const navitems = ["Home","About", "Courses", "Financial Aid", "Apply"];
+const navitems = ["Home","About", "Courses", "Financial Aid", "Apply","Gallery"];
 
 // const Dropdown = ({ header }) => {
 //   return (
@@ -82,7 +82,7 @@ const Navbar = () => {
       <div className="links">
         <ul className={`scroll ${showSidebar ? "" : "hidden"}`}>
           <li className="sm-img">
-            <img src="/logo-white.png" />
+            <img src="/bitlab-logo.svg" />
           </li>
           {navitems.map((navitem, index) => (
             <li
@@ -92,9 +92,9 @@ const Navbar = () => {
               onMouseLeave={handleMouseLeave}
             >
               <a href={navitem.split(" ")[0]}>{navitem}</a>
-              <button onClick={() => handleClick(index)}>
+              {/* <button onClick={() => handleClick(index)}>
                 <IoIosArrowForward size={30} className="arrow1" />
-              </button>
+              </button> */}
               {/* {itemHovered === index && <Dropdown header={navitem} />} */}
             </li>
           ))}

@@ -3,13 +3,13 @@ const Financial = () => {
       <div>
         <div className="ffirstpart">
           <div className="fcontent">
-            <h1>Bismuth Financial Aid</h1>
+            <h1>BITLabs Financial Aid</h1>
             <p>
-              Bitlabs sponsors students, especially those facing challenges, to
+              BITLabs sponsors students, especially those facing challenges, to
               participate in STEM projects, providing financial aid, mentorship,
-              and resource access. This initiative aligns with Bitlabs' goal of
+              and resource access. This initiative aligns with BITLabs' goal of
               fostering diversity in STEM education to create a more innovative
-              future workforce. For detailed information, contact Bitlabs
+              future workforce. For detailed information, contact BITLabs
               directly or refer to official communications.
             </p>
           </div>
@@ -18,19 +18,19 @@ const Financial = () => {
         <div className="blimage"></div>
         <div className="appealforsponsors">
           <p>
-            Bitlabs actively seeks external sponsorship to fuel its growth and
+            BITLabs actively seeks external sponsorship to fuel its growth and
             strategic partnerships, emphasizing collaboration with entities
             sharing compatible values. A meticulously crafted sponsorship
-            proposal highlights Bitlabs' mission, achievements, and the impact
+            proposal highlights BITLabs' mission, achievements, and the impact
             of past support, establishing credibility and showcasing the
             tangible benefits sponsors can gain.
             <br />
             <br />
-            Using a personalized strategy, Bitlabs tailors pitches to align with
+            Using a personalized strategy, BITLabs tailors pitches to align with
             potential sponsors' values and actively engages in networking both
             physically and virtually. A robust online presence, including a
             professional website and active social media profiles, amplifies
-            Bitlabs' visibility. Committed to ongoing communication, Bitlabs
+            BITLabs' visibility. Committed to ongoing communication, BITLabs
             aims to build lasting partnerships, extending beyond financial
             support to collaborative ventures that contribute substantively to
             its sustained growth and success.
@@ -46,11 +46,14 @@ const Financial = () => {
             your needs.
           </p>
           <div className="sponsors">
-            <h2>Current sponsors</h2>
+            <h1>CURRENT SPONSORS</h1>
 
             <div className="currrentsponsors">
-              <img className="bb" src="./Bismuth (1).png" alt="" />
-              <img src="./YAF1 (1).png" alt="" />
+              <img src="./YAF1.png" alt="" />
+              <img className="bb" src="./Bismuth.png" alt="" />
+            </div>
+            <div className="click">
+              <h2><u>BECOME A SPONSOR</u></h2>
             </div>
           </div>
         </div>

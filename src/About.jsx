@@ -46,7 +46,7 @@ const About = () => {
               problem-solvers.
             </h2>
             <p>
-              Bitlabs is a technology-centric company committed to fostering and
+              BITLabs is a technology-centric company committed to fostering and
               nurturing young minds through the implementation of cutting-edge
               STEM innovations and educational programs. We are dedicated to
               equipping the next generation with the skills and knowledge
@@ -99,7 +99,7 @@ const About = () => {
           <div className="forthsection">
             <h1>OUR JOURNEY</h1>
             <p>
-              In 2022, Bitlabs began its mission to democratize STEM education in schools, particularly for children with limited resources. The aim is to integrate STEM subjects seamlessly into the standard curriculum, closing educational gaps and fostering a genuine passion for science and technology. Through dynamic programs, Bitlabs strives to make STEM as fundamental as other core subjects, creating a brighter and more inclusive educational landscape.
+              In 2022, BITLabs began its mission to democratize STEM education in schools, particularly for children with limited resources. The aim is to integrate STEM subjects seamlessly into the standard curriculum, closing educational gaps and fostering a genuine passion for science and technology. Through dynamic programs, BITLabs strives to make STEM as fundamental as other core subjects, creating a brighter and more inclusive educational landscape.
             </p>
           </div>
           <div className="wave4">
