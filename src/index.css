@@ -250,11 +250,12 @@
 
 
 .first-part img {
-   background-size: cover;
+   /* background-size: cover;
             background-position: center;
             background-attachment: fixed;
-            background-repeat: no-repeat;
+            background-repeat: no-repeat; */
             width: 100%;
+            height: 20%;
 
   filter: blur(1.2px);
 
